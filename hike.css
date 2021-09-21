@@ -1,0 +1,195 @@
+body{
+	margin-left:5%;
+	margin-right:5%;
+	background-color: #AAAAAA;
+	font-family: Georgia, Verdana, Arial,sans-serif;
+
+
+}
+
+
+header{
+	background-color: #0c2d16;
+	background-position:left;
+	background-repeat: no-repeat;
+	margin-bottom:5px;
+}
+
+
+
+h1{
+	padding-top:5%;
+	font-size:60pt;
+	padding-left:40px;
+}
+
+h2{
+	font-size:24pt;
+}
+
+nav{
+	border:solid 3px black;
+
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    overflow: hidden;
+    background-color: #0c2d16;
+
+}
+
+.trails{
+	border-right:1px solid #000000;
+	border-left:1px solid #000000;
+
+}
+
+li a {
+    display: inline-block;
+    color: #AAAAAA;
+    padding: 0px 20px;
+    text-decoration: none;
+
+}
+
+li a:hover {
+    background-color: #AAAAAA;
+	color:yellow;
+}
+
+
+footer{
+	background-color: #0c2d16;
+	color: #AAAAAA;
+	font-size: .60em;
+	font-style: italic;
+	text-align: center;
+	padding: 1em;
+	border:solid 3px black;
+}
+
+#title{
+	margin-left: auto;
+	margin-right: auto;
+	color:#AAAAAA;
+	border: 3px solid black;
+	max-height:250px;
+	}
+
+#range{
+	margin-bottom:5px;
+	border:solid 3px black;
+	}
+
+.links{
+	 float:left;
+}
+
+
+label{
+	float:left;
+	display:block;
+	text-align:right;
+	font-weight:bold;
+	width:10em;
+	padding-right:1em;
+}
+
+input, textarea{
+	display:block;
+	margin-bottom:2em;
+}
+#button{
+	margin-left:45%;
+}
+#form{
+	padding:1em;
+	margin: auto;
+	width:600px;
+	background-color:#0c2d16;
+	color: #AAAAAA;
+}
+
+#contactPara{
+	font-size:20px;
+	margin-left:10%;
+}
+
+#trails{
+	color: #AAAAAA;
+	background-color:#0c2d16;
+	padding:30px;
+}
+.titles{
+	font-size:16pt;
+	font-weight:bold;
+
+}
+
+.intros{
+	margin-left:5%;
+	margin-right:5%;
+	margin-top: 5px;
+	border: 3px solid black;
+	display: block;
+	background-color:#0c2d16;
+	color: #AAAAAA;
+	padding-left:30px;
+	padding-right:30px;
+	font-size:14pt;
+}
+
+.pictures{
+	margin-left:5%;
+	margin-right:5%;
+	margin-top:5px;
+	border:3px solid black;
+	background-color:#0c2d16;
+	color: #AAAAAA;
+}
+
+.float{
+	float:left;
+	margin:2px;
+	border:3px solid black;
+}
+
+#logo{
+	float:left;
+	max-height:200px;
+	max-width:200px;
+	padding:20px;
+}
+
+@media only screen and (max-width: 1024px)
+{
+	h1{
+	font-size: 40pt;
+	}
+	#gear{
+		min-width:450px;
+		min-height:300px;
+	}
+	#form{
+		width:400px;
+	}
+
+}
+
+@media only screen and (max-width: 768px)
+{
+	h1{
+		font-size: 20pt;
+	  }
+	#gear{
+		min-width:350px;
+		min-height:200px;
+	}
+	#form{
+		width:200px;
+	}
+
+
+}

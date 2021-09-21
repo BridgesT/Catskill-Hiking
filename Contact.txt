@@ -1,0 +1,58 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+<meta charset="utf-8">
+<title>Catskill Hiking</title>
+<link rel= "stylesheet" href="hike.css" type="text/css">
+</head>
+
+
+<body>
+
+<div id="range">
+<img src="images/MountainsHead.png" alt="Mountains" height="507" width="100%">
+</div>
+
+<header>
+<div id= "title">
+<h1>Catskill Hiking</h1>
+</div>
+</header>
+
+
+
+
+<main>
+
+
+<nav>
+<ul>
+<li><a href= "index.html">Home</a></li>
+<li><a href= "classes.html">Trails</a></li>
+<li><a href= "schedule.html">Gear</a></li>
+<li><a href= "contact.html">Contact</a></li>
+</ul>
+</nav>
+
+
+<div>
+<span class="studio">Catskill Hiking</span>
+<br><br>
+Catskill, NY<br>
+518-555-HIKE<br>
+</div>
+</main>
+
+<br><br>
+
+<footer>
+<div>
+Copyright &copy; 2018 Bridges Projects<br>
+<a href="mailto:t-bridges@hvcc.edu">t-bridges@hvcc</a>
+</div>
+</footer>
+</div>
+</body>
+
+</html>
